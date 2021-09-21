@@ -2,8 +2,8 @@ package com.wild.springsecuritydemo.model;
 
 public enum Permission {
 
-    DEVELOPER_READ("developers:read"),
-    DEVELOPER_WRITE("developers:write");
+    DEVELOPERS_READ("developers:read"),
+    DEVELOPERS_WRITE("developers:write");
 
     private final String permission;
 

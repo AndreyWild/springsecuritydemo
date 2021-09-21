@@ -30,6 +30,6 @@ public class User {
     private Role role;
 
     @Enumerated(value = EnumType.STRING)
-    @Column(name = "email")
+    @Column(name = "status")
     private Status status;
 }
